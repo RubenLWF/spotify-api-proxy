@@ -4,8 +4,7 @@
   "description": "Serverless API proxy for Spotify API calls",
   "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "npx vercel dev"
   },
   "keywords": [
     "spotify",
@@ -17,7 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.19.9",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vercel": "^44.6.6"
   },
   "dependencies": {
     "@vercel/node": "^5.3.8"
