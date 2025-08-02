@@ -1,0 +1,25 @@
+{
+  "name": "spotify-api-proxy",
+  "version": "1.0.0",
+  "description": "Serverless API proxy for Spotify API calls",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "keywords": [
+    "spotify",
+    "api",
+    "proxy",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@vercel/node": "^5.3.8"
+  }
+}
